@@ -1,0 +1,55 @@
+.box {
+    position: fixed;
+    width: 35%;
+    left: 32%;
+    top: 30%;
+    z-index: 10;
+    background-color: #efefef;
+    transition: all .3s ease-in-out;
+    border: 2px solid #252525;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+
+    &-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &-form {
+        width: 90%;
+        margin: 1rem auto;
+
+        input {
+            width: 100%;
+            border: none;
+            border-radius: .5rem;
+            border: 2px solid #252525;
+            background-color: #fff;
+            color: #252525;
+            outline: none;
+            height: 40px;
+            padding-left: .5rem;
+        }
+
+        button {
+            width: 50%;
+            background-color: #252525;
+            color: #efefef;
+            border-radius: .5rem;
+            border: none;
+            height: 45px;
+            border-radius: .5rem;
+            border: none;
+            height: 45px;
+            font-weight: 600;
+            margin-top: 2rem;
+        }
+
+    }
+
+    @media screen and (max-width : 998px) {
+        width: 90%;
+        left: 5%;
+    }
+}

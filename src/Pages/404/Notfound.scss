@@ -1,0 +1,38 @@
+.nothing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+    color: #252525;
+
+
+
+    &-title {
+        font-size: 5.5rem;
+        font-weight: bold;
+    }
+
+    &-subtitle {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    &-button {
+        width: 300px;
+        height: 55px;
+        border-radius: .5rem;
+        background-color: #252525;
+        color: #efefef;
+        font-size: 1.4rem;
+        transition: all .4s ease-in-out;
+        border: none;
+
+
+        &:hover {
+            transform: scale(1.2);
+            transition: all .4s ease-in-out;
+        }
+    }
+}
